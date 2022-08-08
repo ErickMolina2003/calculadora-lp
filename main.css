@@ -1,0 +1,60 @@
+.main-container {
+    width: 50%;
+    height: 70%;
+    background-color: #2e2e2e;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+.input-container {
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.input-form {
+    height: 50%;
+    width: 100%;
+    background-color: #373737;
+}
+
+.buttons-container {
+    height: 80%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn {
+    width: 24%;
+    height: 100%;
+    color: white;
+    background-color: #303032;
+    border-color: #080808;
+}
+
+.btn-row {
+    height: 15%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.row-ex {
+    display: flex;
+}
+
+.btn-ex {
+    margin-right: 0.3em;
+}
+
+.btn-p {
+    width: 24%;
+}
