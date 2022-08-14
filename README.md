@@ -1,5 +1,5 @@
 # calculadora-lp
 
-1) Erick Alejandro Molina Garcia 20201002723
-2) Lleymi Montoya
-3) Angie Arias
+1) Angie Arias 20191001211
+2) Erick Alejandro Molina Garcia 20201002723
+3) Lleymi Montoya 20191030723
