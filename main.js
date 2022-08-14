@@ -1,4 +1,3 @@
-console.log("Nota: Las operaciones son realizadas por orden, no por jerarquia de operaciones");
 
 var valorActual = '';
 var numeros = [];
@@ -20,8 +19,6 @@ function digitar_operacion(num) {
 }
 
 function operacion(op) {
-    valorPantalla += `${op}`
-    document.getElementById('principal').value = valorPantalla;
     numeros.push(Number.parseFloat(valorActual));
     valorActual = '';
 
@@ -47,6 +44,12 @@ function operacion(op) {
             numeros.push(resultado);
         }
     }
+    if(resultado) {
+        valorPantalla = `${resultado}`;
+    }
+    valorPantalla += `${op}`
+    document.getElementById('principal').value = valorPantalla;
+
     operador = op;
 }
 
